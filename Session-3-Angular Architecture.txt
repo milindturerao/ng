@@ -1,0 +1,52 @@
+Today : 04-Session on Angular - 11
+-----------------------------------------------------------------------
+
+-> In last session we discussed about Angular Introduction
+-----------------------------------------------------------------------------------------
+-> Angular is a client side framework
+
+-> Angular is used to create Web Applications
+
+-> Angular is mainley used to develop Single Page Applications
+
+-> Angular framework is free and open source
+
+-> Angular framework developed by Google.
+
+-> There are 2 flavours of Angular
+
+			1) Angular JS (Angular 1.x)
+			2) Angular (Angular 2+ versions)
+
+-> Angular JS is developed using Java Script
+
+-> Angular framework is developed by using Type Script
+
+Note: Angular framework is completley re-written by google in Angular 2.0 version
+
+->
+Angular is not extension for Angular JS (Angular is completley different from Angular JS)
+
+Angular Architecture
+-----------------------
+1) Component
+2) Meta Data
+3) Service
+4) Data Bindings
+5) Template
+6) Directives
+7) Pipes
+
+-> Component is a TypeScript class which acts as Request Handler
+
+-> Meta Data Describes Component and Template mapping
+
+-> Service is a TypeScript Class which is used to write business logics
+
+-> Data Bindings are used for tranferring the data from component to template and from template to component.
+
+-> Template is a HTML file which contains presentation logic
+
+-> Directives are used for DOM manipulations 
+
+-> Pipes are used to transforming the data from one format to another format.

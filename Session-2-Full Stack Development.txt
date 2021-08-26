@@ -1,0 +1,32 @@
+Today's session : Full Stack Development, MPA and SPA
+-------------------------------------------------------------------------------
+-> Now a days in the industry companies are following Microservices architecture to develop the applications.
+
+-> Microservices is an Architectural Design Pattern which is used to develop our applications with loosely coupling and easy maintenence.
+
+-> As part of this Microservices architecture we will develop business logics as Rest Apis.
+
+-> REST APIS are for B 2 B communication (Business to Business Communication).
+
+---------------------------------------------------------------------------------
+
+Fullstack Development :Backend Development (REST apis) + Frontend Development (UI)
+---------------------------------------------------------------------------------
+-> As a fullstack developer we are going to develop web applications.
+
+What is a web application?
+---------------------------
+-> The application which runs in server is called as web application.
+
+-> Multiple users can access web applications at a time by using internet.
+
+	Ex: Facebook, Gmail, IRCTC etc.....
+
+-> We can see 2 types of web applications
+
+		1) Multi page web applications
+		2) Single page web applications
+
+-> In Multi page web applications for every request new web page will be loaded at client side. Here everytime entire page will be reloaded.
+
+-> In Single page web application web page will be loaded only for first request. From second request onwards only content will be updated without reloading the entire page.

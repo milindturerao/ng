@@ -1,0 +1,63 @@
+-------------------------------------------------------------------------
+
+Today : First Session for Angular -11 with TypeScript
+
+-------------------------------------------------------------------------
+
+Pre-Requesities
+---------------
+HTML, CSS and Basics of Java Script
+
+Course Content
+--------------
+
+Part-1
+---------
+What is a web application
+Multi Page web application
+Single Page Web Application (SPA)
+Angular Introduction
+Angular JS vs Angular Framework
+Angular Framework Version History
+Advantages of Angular
+Angular Architecture
+
+Part-2
+-------
+TypeScript Introduction
+Advantages of TypeScript
+Java Script vs TypeScript
+Environment Setup to work TypeScript
+Variables
+DataTypes
+OOPS 
+Class
+Object
+Constructor
+Inheritence
+Access Modifiers
+Interfaces (Contracts)
+Enumerations
+Modules
+Examples Using TypeScript
+
+Part-3
+------
+Revise Angular Introduction
+Revise Angular Architecture
+Environment Setup (NPM, Angular CLI, VS Code IDE)
+First Application Creation Using Angular
+Understanding Angular Application Folder Structures
+Live Server to run Angular apps
+Components in Angular
+Modules
+Data Bindings
+Login App using Angular
+Registration App using Angular
+Directives
+Pipes
+Form Based Applications using Angular
+		- Template driven forms
+		- Reactive Forms
+Form validations
+Routings
