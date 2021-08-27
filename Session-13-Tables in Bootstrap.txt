@@ -1,0 +1,361 @@
+					Tables in Bootstrap
+// Simple Table in HTML and Bootstrap					
+<table>
+  <thead>
+    <tr>  /*tabele row*/
+      <th>#</th>     /*tabele head*/
+      <th>First</th>
+      <th>Last</th>
+      <th">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Mark</td>  /*tabele Data*/
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+// Simple Table Bootstrap
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+//Variants:-> Use contextual classes to color tables, table rows or individual cells.
+
+<!-- On tables -->
+<table class="table-primary">...</table>
+<table class="table-secondary">...</table>
+<table class="table-success">...</table>
+<table class="table-danger">...</table>
+<table class="table-warning">...</table>
+<table class="table-info">...</table>
+<table class="table-light">...</table>
+<table class="table-dark">...</table>
+
+<!-- On rows -->
+<tr class="table-primary">...</tr>
+<tr class="table-secondary">...</tr>
+<tr class="table-success">...</tr>
+<tr class="table-danger">...</tr>
+<tr class="table-warning">...</tr>
+<tr class="table-info">...</tr>
+<tr class="table-light">...</tr>
+<tr class="table-dark">...</tr>
+
+<!-- On cells (`td` or `th`) -->
+<tr>
+  <td class="table-primary">...</td>
+  <td class="table-secondary">...</td>
+  <td class="table-success">...</td>
+  <td class="table-danger">...</td>
+  <td class="table-warning">...</td>
+  <td class="table-info">...</td>
+  <td class="table-light">...</td>
+  <td class="table-dark">...</td>
+</tr>
+
+// Striped rows:-> Use .table-striped to add zebra-striping to any table row within the <tbody>.
+
+<table class="table table-striped">
+  ...
+</table>
+
+<table class="table table-dark table-striped">
+  ...
+</table>
+
+<table class="table table-success table-striped">
+  ...
+</table>
+
+
+//Hoverable rows :-> Add .table-hover to enable a hover state on table rows within a <tbody>
+
+<table class="table table-hover">
+  ...
+</table>
+
+<table class="table table-dark table-hover">
+  ...
+</table>
+
+<table class="table table-striped table-hover">
+  ...
+</table>
+
+//Active tables:-> Highlight a table row or cell by adding a .table-active class.
+
+<table class="table">
+  <thead>
+    ...
+  </thead>
+  <tbody>
+    <tr class="table-active">
+      ...
+    </tr>
+    <tr>
+      ...
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2" class="table-active">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="table table-dark">
+  <thead>
+    ...
+  </thead>
+  <tbody>
+    <tr class="table-active">
+      ...
+    </tr>
+    <tr>
+      ...
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2" class="table-active">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+//Bordered tables:-> Add .table-bordered for borders on all sides of the table and cells.
+
+<table class="table table-bordered">
+  ...
+</table>
+
+<table class="table table-bordered border-primary">
+  ...
+</table>
+
+//Tables without borders:-> Add .table-borderless for a table without borders.
+
+<table class="table table-borderless">
+  ...
+</table>
+
+<table class="table table-dark table-borderless">
+  ...
+</table>
+
+//Small tables:-> Add .table-sm to make any .table more compact by cutting all cell padding in half.
+
+<table class="table table-sm">
+  ...
+</table>
+
+<table class="table table-dark table-sm">
+  ...
+</table>
+
+//Vertical alignment:-> Table cells of <thead> are always vertical aligned to the bottom. Table cells in 
+<tbody> inherit their alignment from <table> and are aligned to the the top by default. Use the vertical 
+align classes to re-align where needed.
+
+<div class="table-responsive">
+  <table class="table align-middle">
+    <thead>
+      <tr>
+        ...
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        ...
+      </tr>
+      <tr class="align-bottom">
+        ...
+      </tr>
+      <tr>
+        <td>...</td>
+        <t	d>...</td>
+        <td class="align-top">This cell is aligned to the top.</td>
+        <td>...</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+//Nesting :-> Border styles, active styles, and table variants are not inherited by nested tables.
+9
+
+<table class="table table-striped">
+  <thead>
+    ...
+  </thead>
+  <tbody>
+    ...
+    <tr>
+      <td colspan="4">
+        <table class="table mb-0">
+          ...
+        </table>
+      </td>
+    </tr>
+    ...
+  </tbody>
+</table>
+
+//Table head :-> Similar to tables and dark tables, use the modifier classes .table-light or 
+.table-dark to make <thead>s appear light or dark gray.
+
+<table class="table">
+  <thead class="table-light">
+    ...
+  </thead>
+  <tbody>
+    ...
+  </tbody>
+</table>
+
+<table class="table">
+  <thead class="table-dark">
+    ...
+  </thead>
+  <tbody>
+    ...
+  </tbody>
+</table>
+
+
+
+//Table foot:->
+
+
+<table class="table">
+  <thead>
+    ...
+  </thead>
+  <tbody>
+    ...
+  </tbody>
+  <tfoot>
+    ...
+  </tfoot>
+</table>
+
+//Captions:-> A <caption> functions like a heading for a table. It helps users with screen readers to 
+			  find a table and understand what it’s about and decide if they want to read it.
+			  
+<table class="table table-sm">
+  <caption>List of users</caption>
+  <thead>
+    ...
+  </thead>
+  <tbody>
+    ...
+  </tbody>
+</table>
+
+You can also put the <caption> on the top of the table with .caption-top.
+
+<table class="table caption-top">
+  <caption>List of users</caption>
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+Responsive tables:->
+
+Responsive tables allow tables to be scrolled horizontally with ease.
+ Make any table responsive across all viewports by wrapping a .
+ table with .table-responsive. 
+ Or, pick a maximum breakpoint with which to have a responsive table up to by using .
+ table-responsive{-sm|-md|-lg|-xl|-xxl}.			  
+ 
+ 
+//Always responsive:-> Across every breakpoint, use .table-responsive for horizontally scrolling tables.
+
+<div class="table-responsive">
+  <table class="table">
+    ...
+  </table>
+</div>
+
+//Breakpoint specific:->
+
+Use .table-responsive{-sm|-md|-lg|-xl|-xxl} as needed to create responsive tables up to a particular 
+breakpoint. From that breakpoint and up, the table will behave normally and not scroll horizontally. 
+			  
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+					Session-11-Forms Concept in Bootstrap 
+
+
+
+Form control:-> Style textual inputs and textareas with support for multiple states.
+
+Select:-> Improve browser default select elements with a custom initial appearance.
+
+Checks & radios:->Use our custom radio buttons and checkboxes in forms for selecting input options.
+
+Range:-> Replace browser default range inputs with our custom version.
+
+Input group:-> Attach labels and buttons to your inputs for increased semantic value.
+
+Floating labels:-> Create beautifully simple form labels that float over your input fields.
+
+Layout:-> Create inline, horizontal, or complex grid-based layouts with your forms.
+
+Validation:-> Validate your forms with custom or native validation behaviors and styles.

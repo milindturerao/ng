@@ -1,0 +1,79 @@
+         Typography
+----------------------------------------------------------------------------		 
+		1)Use a native font stack that selects the best font-family for each OS and device.
+		
+		2)For a more inclusive and accessible type scale, we use the browser’s default root font-size 
+		(typically 16px)so visitors can customize their browser defaults as needed.
+		
+		3)Use the $font-family-base, $font-size-base, and $line-height-base attributes as our typographic 
+		base applied to the <body>.
+		
+		4)Set the global link color via $link-color.
+		
+		5)Use $body-bg to set a background-color on the <body> (#fff by default).
+
+		 
+	Headings	 
+-----------------------	 
+<h1>h1. Bootstrap heading</h1>
+<h2>h2. Bootstrap heading</h2>
+<h3>h3. Bootstrap heading</h3>
+<h4>h4. Bootstrap heading</h4>
+<h5>h5. Bootstrap heading</h5>
+<h6>h6. Bootstrap heading</h6>
+
+all clasess
+
+class="h1"
+class="h2"
+class="h3"
+class="h4"
+class="h5"
+class="h1"
+
+
+Display headings
+
+  <h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+<h1 class="display-5">Display 5</h1>
+<h1 class="display-6">Display 6</h1>
+
+   Lead->Make a paragraph stand out by adding .lead.
+
+
+Inline text elements ->Styling for common inline HTML5 elements.
+
+<p>You can use the mark tag to <mark>highlight</mark> text.</p>
+<p><del>This line of text is meant to be treated as deleted text.</del></p>
+<p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+<p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+<p><u>This line of text will render as underlined.</u></p>
+<p><small>This line of text is meant to be treated as fine print.</small></p>
+<p><strong>This line rendered as bold text.</strong></p>
+<p><em>This line rendered as italicized text.</em></p>
+
+Beware that those tags should be used for semantic purpose:
+
+<mark> represents text which is marked or highlighted for reference or notation purposes.
+<small> represents side-comments and small print, like copyright and legal text.
+<s> represents element that are no longer relevant or no longer accurate.
+<u> represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation.
+If you want to style your text, you should use the following classes instead:
+
+.mark will apply the same styles as <mark>.
+.small will apply the same styles as <small>.
+.text-decoration-underline will apply the same styles as <u>.
+.text-decoration-line-through will apply the same styles as <s>.
+
+
+
+
+    Abbreviations
+	 
+	 <p><abbr title="List" class="attribute">Menu</abbr></p>
+	 
+	 
+	Blockquotes 

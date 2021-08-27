@@ -1,0 +1,37 @@
+				Colors & Backgrounds in
+				
+				
+Background color:->Similar to the contextual text color classes, set the background of an 
+					element to any contextual class. Background utilities do not set 
+					color, so in some cases you’ll want to use
+					
+	class:->.bg-primary
+			.bg-secondary
+			.bg-success
+			.bg-danger
+			.bg-warning
+			.bg-info
+			.bg-light
+			.bg-dark
+			.bg-body
+			.bg-white
+			.bg-transparent
+			
+Text Colors:-> Colorize text with color utilities. If you want to colorize links, you can use the .link-* 
+				helper classes which have :hover and :focus states.			
+				
+		class:->.text-primary
+				.text-secondary
+				.text-success
+				.text-danger
+				.text-warning
+				.text-info
+				.text-light
+				.text-dark
+				.text-muted
+				.text-body
+				.text-white
+				.text-black-50
+				.text-white-50
+
+
