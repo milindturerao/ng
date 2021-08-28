@@ -1,0 +1,20 @@
+							Asynchronous JavaScript Programming
+							
+							
+Synchronous -> step by step
+
+Asynchronous -> any fun get som time that sea you finish you are work im back to you geting you are ans
+                that coll Asynchronous.
+
+Asynchronous ->
+
+1)Collbacks
+
+2)promises
+
+3)Async -> Await
+
+using these concepts you can make Asynchronous Programming in JavaScript
+
+			
+							
